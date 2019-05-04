@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_create_dynamic_shortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建动态快捷方式" />
+
+    <Button
+        android:id="@+id/btn_update_shortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新快捷方式" />
+
+    <Button
+        android:id="@+id/btn_remove_shortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除快捷方式" />
+
+    <Button
+        android:id="@+id/btn_disable_shortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="禁用快捷方式" />
+
+    <Button
+        android:id="@+id/btn_create_pinned_shortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建固定快捷方式" />
+
+</LinearLayout>
